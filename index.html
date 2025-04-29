@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sugarland Theaters Seat Selector</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Select Your Seats</h1>
+    <div class="screen">SCREEN</div>
+    <div id="seat-map" class="seat-map"></div>
+
+    <div class="legend">
+      <div><span class="seat available"></span> Available</div>
+      <div><span class="seat selected"></span> Selected</div>
+      <div><span class="seat occupied"></span> Occupied</div>
+    </div>
+
+    <div class="selected-seats">
+      <h2>Your Selection:</h2>
+      <p id="selected-output">None</p>
+    </div>
+
+    <div class="actions">
+      <button id="proceed-btn" disabled>Proceed to Payment</button>
+    </div>
+  </div>
+
+  <!-- Include external JS with defer -->
+  <script defer src="script.js"></script>
+</body>
+</html>

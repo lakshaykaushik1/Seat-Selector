@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transaction - Sugarland Theaters</title>
+  <link rel="stylesheet" href="transaction/transaction.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Checkout</h1>
+    
+        <!-- Back button -->
+        <button id="back-btn" class="back-btn">&larr; Back</button>
+    
+        <section class="summary">
+          <h2>Your Seats</h2>
+          <ul id="seat-list">
+            <!-- Populated by script -->
+          </ul>
+          <!-- Number of tickets -->
+          <p id="ticket-count">Tickets: 0</p>
+          <p id="total-price">Total: $0</p>
+        </section>
+    
+        <section class="payment-form">
+          <h2>Payment Details</h2>
+          <form id="checkout-form">
+            <div class="field">
+              <label for="name">Name on Card</label>
+              <input type="text" id="name" required>
+            </div>
+            <div class="field">
+              <label for="card-number">Card Number</label>
+              <input type="text" id="card-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="expiry">Expiry Date</label>
+                <input type="text" id="expiry" maxlength="5" placeholder="MM/YY" required>
+              </div>
+              <div class="field">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" maxlength="4" required>
+              </div>
+            </div>
+            <div class="actions">
+              <button type="submit" id="pay-btn">Pay Now</button>
+            </div>
+          </form>
+        </section>
+    </div>
+
+  <script defer src="transaction/transaction.js"></script>
+</body>
+</html>
