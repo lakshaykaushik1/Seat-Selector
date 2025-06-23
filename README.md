@@ -1,4 +1,4 @@
-<h1 align="center">🎟️ Seat Selector</h1>
+  <h1 align="center">🎟️ Seat Selector</h1>
 
 <p align="center">
   <b>A sleek and responsive seat booking interface for theaters, events, and more!</b><br/>
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/lakshaykaushik1/Seat-Selector" />
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/lakshaykaushik1/Seat-Selector" /></a>
   <img src="https://img.shields.io/github/repo-size/lakshaykaushik1/Seat-Selector" />
   <img src="https://img.shields.io/github/last-commit/lakshaykaushik1/Seat-Selector" />
 </p>
@@ -36,8 +36,7 @@ _See the Seat Selector in action — choose your seat like a VIP!_
 <p align="center">
   <img src="Home.png" alt="Home View" width="45%" />
   &nbsp;&nbsp;
-  <img src="transaction1.png" alt="Home View" width="45%" />
-
+  <img src="transaction1.png" alt="Transaction View" width="45%" />
 </p>
 
 ---
@@ -75,11 +74,14 @@ _See the Seat Selector in action — choose your seat like a VIP!_
 
 ## ⚙️ How to Run Locally
 
+To run this project on your machine:
+
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/lakshaykaushik1/Seat-Selector.git
 
-# Go into the folder
+# 2. Navigate into the folder
 cd Seat-Selector
 
-# Open index.html in browser (or use Live Server)
+# 3. Open index.html in your browser
+#    You can also use a Live Server extension in VS Code
