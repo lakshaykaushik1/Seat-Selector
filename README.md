@@ -34,9 +34,9 @@ _See the Seat Selector in action — choose your seat like a VIP!_
 ## 📸 Sneak Peek
 
 <p align="center">
-  <img src="screenshots/home.png" alt="Home View" width="45%" />
+  <img src="Home.png" alt="Home View" width="45%" />
   &nbsp;&nbsp;
-  
+  <img src="transaction1.png" alt="Home View" width="45%" />
 
 </p>
 
