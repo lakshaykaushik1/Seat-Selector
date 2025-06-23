@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/lakshaykaushik1/Seat-Selector" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/lakshaykaushik1/Seat-Selector?cacheSeconds=1" /></a>
   <img src="https://img.shields.io/github/repo-size/lakshaykaushik1/Seat-Selector" />
   <img src="https://img.shields.io/github/last-commit/lakshaykaushik1/Seat-Selector" />
 </p>
